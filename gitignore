@@ -1,0 +1,43 @@
+# ── Node ──────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ── Environment ───────────────────────
+.env
+.env.local
+.env.development
+.env.production
+
+# ── OS ────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editors ───────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ── Logs ──────────────────────────────
+logs/
+*.log
+
+# ── Build / dist ──────────────────────
+dist/
+build/
+
+# ── Python (if ever added) ────────────
+__pycache__/
+*.py[cod]
+venv/
+
+# ── Temp ──────────────────────────────
+*.tmp
+*.bak
+.cache/
