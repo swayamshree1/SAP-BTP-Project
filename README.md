@@ -43,32 +43,25 @@ This portal simulates all four stages of the procurement cycle as practised in S
 ```
 sap-p2p-portal/
 ├── frontend/
-│   └── index.html          # Single-file application (HTML + CSS + JS)
+│   └── index.html # Single-file application (HTML + CSS + JS)
+├── routes/
+│   ├── material.js
+│   ├── orders.js
+│   ├── prs.js
+│   └── stats.js
 ├── docs/
-│   └── TechNova_SAP_P2P_Project.pdf   # Project documentation
-├── screenshots/
-│   └── (add screenshots here before submission)
+│   └── KIIT SAP Program — Capstone Project 2026.pdf  # Project documentation (includes screenshots)
 ├── README.md
 ├── .gitignore
-└── LICENSE
+├── index.html
+├── package.json
+└── server.js
 ```
 
 ---
 
-## 🚀 How to Run
-
-No installation required. This is a pure frontend application.
-
-```bash
-# Option 1 — Open directly in browser
-open frontend/index.html
-
-# Option 2 — Serve locally with Python
-cd frontend
-python -m http.server 8080
-# Then open http://localhost:8080
-```
-
+## 🚀 Project Link
+https://swayamshree1.github.io/SAP-BTP-Project/
 ---
 
 ## 🧪 Sample Workflow to Test
@@ -121,9 +114,10 @@ python -m http.server 8080
 
 ---
 
-## 📄 License
+## 🖋️ Author
 
-MIT License — free to use for educational purposes.
+Swayamshree Mohanty
+Roll No.: 2305661
 
 ---
 
